@@ -47,7 +47,7 @@ V = 3
 font = {'size': 12}
 matplotlib.rc('font', **font)
 #%%Input
-sim_range = range(1) #simulations to run
+sim_range = range(100) #simulations to run
 N_sim = len(sim_range) #number of times we repeat the simulation
 sim_range_msnmpc = [47] #simulations where initial guess is w0_method="w_opt_clipping" in ms-nmpc
 
